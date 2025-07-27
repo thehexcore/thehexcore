@@ -53,13 +53,14 @@ header {
   background-image: url('header-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 1rem;
+  background-position: center center;
+  background-color: #87CEEB;
   height: 100vh;
   position: relative;
 }
 header > .wrapper {
   position: absolute;
-  top: 50vh;
+  top: 45vh;
   padding: 1rem;
 }
 .wrapper > img {
